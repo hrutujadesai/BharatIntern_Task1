@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to right top, #6bbfd1, #50b0e2, #6b9ae9, #a17ad9, #ce50ab, #e74d7c, #e65f50, #d17a2d, #baa84c, #a8cb89, #ace6c9, #d3fbf9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.wel
+{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+.main p{
+
+    margin: 0;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.celcius{
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+}
+.far{
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+}
+.Kelvin{
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+input{
+    flex: 5;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0;
+  }
+  .icon{
+    flex: 1;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5px;
+    text-align: center;
+    background: #4d5964;
+    color: white;
+    cursor: pointer;
+    transition:.7s ease all;
+    border-radius: 0 8px 8px 0;
+  }
+  .butt{
+    margin-top: 25px;
+    text-align: center;
+  }
+  .butt button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px 2px black;
+  }
+  
+  .butt button:hover{
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 10px 2px #fff;
+  }
+  
